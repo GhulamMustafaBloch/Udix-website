@@ -1,0 +1,62 @@
+.img {
+    opacity: 1;
+    width: 100vw;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-image: url(Rectangle1706.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-content, .img-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.img-content {
+    gap: 40px;
+}
+
+.img-content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.img-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+.img-btns button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    background: #381DDB;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}

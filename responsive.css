@@ -1,0 +1,170 @@
+@media only screen and (max-width: 640px) {
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+  .chaild-container h1 {
+    padding: 20px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .chaild-container p {
+    width: 100vw;
+    padding: 20px;
+  }
+  .chaild-container-2 {
+    display: block;
+  }
+  .chaild-container-2 button {
+    margin: 40px 100px;
+  }
+  /* section-2 */
+  .section-2 {
+    /* margin: 30px; */
+  }
+  .section-content {
+    width: 100vw;
+    padding: 20px;
+  }
+  .section-content p {
+    padding-top: 20px;
+  }
+  .section-box {
+    display: block;
+  }
+  .box {
+    width: 80vw;
+    margin: 30px 0;
+  }
+  /* section-3 */
+  .img {
+    display: block;
+  }
+  .img-content {
+    display: block;
+  }
+  .img-content p {
+    padding-top: 12px;
+  }
+  .img-content h2 {
+    padding-top: 30px;
+  }
+  /* section-4 */
+  .section-4 {
+    width: 100vw;
+    display: block;
+    margin: 3rem;
+  }
+  .myimg {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+  }
+  .myContent,
+  ul,
+  p {
+    margin: 3rem;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .navBar nav ul li {
+    margin: 0 0.8rem;
+  }
+  .btns button {
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: blue;
+    margin: 6px 0;
+    margin-right: 40px;
+  }
+  .orderdList,
+  .btns {
+    display: none;
+  }
+  .orderdList {
+    height: 0;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: black;
+    transition: 0.5s;
+    color: azure;
+    overflow: hidden;
+  }
+  .orderdList.active{
+    height: 450px;
+  }
+  .orderdList.active ul{
+    opacity: 1;
+  }
+  .btns.active{
+    height: 440px;
+  }
+  .btns.active button{
+    opacity: 1;
+  }
+  .btns {
+    overflow: hidden;
+    margin: 0 40px;
+    display: block;
+    /* justify-content: space-around; */
+    height: 0;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    left: 70%;
+    width: 100vw;
+    background-color: black;
+    transition: 0.5s;
+    color: azure;
+  }
+  .btns button{
+    display: block;
+    margin: 15px;
+    opacity: 0;
+    color: white;
+  }
+  .navBar nav ul{
+display: block;
+width: fit-content;
+margin: 140px auto 0 auto;
+opacity: 0;
+color: white;
+  }
+  .navBar nav ul li{
+    padding: 20px;
+  }
+  /* footer */
+  .footer{
+    height: auto;
+    display: block;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  .footer_left{
+    width: 100vw;
+  }
+  .footer_left p{
+    padding: 10px;
+    padding-right: 1rem;
+    margin:0 2.5rem 0 0;
+  }
+  .right_footer_nav {
+    flex-direction: column;
+}
+._footer-btns button{
+    margin: 0;
+}
+}

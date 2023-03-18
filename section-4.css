@@ -1,0 +1,25 @@
+.section-4{
+    margin-top: 3rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+}
+.myimg{
+    margin: 2rem 0;
+    margin-left: 8rem;
+    width: 90vw;
+    height: 90vh;
+}
+.myContent h2{
+    margin-top: 40px;
+}
+.myContent{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-family: 'Montserrat';
+}
+.myContent p,ul{
+margin-top: 20px;
+}
