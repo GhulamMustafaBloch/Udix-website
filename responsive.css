@@ -137,34 +137,45 @@
     opacity: 0;
     color: white;
   }
-  .navBar nav ul{
+  .navBar ul{
 display: block;
 width: fit-content;
 margin: 140px auto 0 auto;
 opacity: 0;
 color: white;
   }
-  .navBar nav ul li{
+  .navBar ul li{
     padding: 20px;
   }
   /* footer */
-  .footer{
-    height: auto;
-    display: block;
-    padding: 2rem 1rem 2rem 1rem;
+  /* .logo_listing_btn{
+    margin:40px 0;
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .logo_listing_btn,.listing_btn{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
-  .footer_left{
+  .market-leading{
+display: block;
+  }
+  .listing{
+    justify-content: center;
+    margin-top: 20px;
     width: 100vw;
   }
-  .footer_left p{
-    padding: 10px;
-    padding-right: 1rem;
-    margin:0 2.5rem 0 0;
-  }
-  .right_footer_nav {
-    flex-direction: column;
+  .market-leading p{
+    order: 1;
+    width: 100vw;
 }
-._footer-btns button{
-    margin: 0;
+.market-leading img{
+  order: 0;
+}
+.btn-wrapper{
+  justify-content: center;
+  margin-top: 0;
+  width: 100vw;
 }
 }
